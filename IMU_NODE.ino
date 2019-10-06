@@ -525,6 +525,12 @@ Firebase.pushFloat("mz",mz);
     roll  = atan2(2.0f * (q[0] * q[1] + q[2] * q[3]), q[0] * q[0] - q[1] * q[1] - q[2] * q[2] + q[3] * q[3]);
     pitch *= 180.0f / PI;
     yaw   *= 180.0f / PI; 
+    yaw   += 15.44; /* Declination at Rio Grande, Rio Grande do Sul ,Brazil  Model Used:	WMM	Help
+                                                               Latitude:	32.0332° S
+                                                               Longitude:	52.0986° W
+                                                               Date	Declination
+                                                               2018-10-03 15.44° W  ± 0.40°  changing by  0.15° W per year)*/
+    	    
    
     roll  *= 180.0f / PI;
      
