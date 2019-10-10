@@ -183,12 +183,5 @@
             q3 = pb + (q1 * gy - pa * gz + pc * gx) * (0.5f * deltat);
             q4 = pc + (q1 * gz + pa * gy - pb * gx) * (0.5f * deltat);
 
-            // Normalise quaternion
-            norm = sqrt(q1 * q1 + q2 * q2 + q3 * q3 + q4 * q4);
-            norm = 1.0f / norm;
-            q[0] = q1 * norm;
-            q[1] = q2 * norm;
-            q[2] = q3 * norm;
-            q[3] = q4 * norm;
  
         }
