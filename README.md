@@ -2,7 +2,7 @@
 Código utilizado para captar os dados fornecidos pela IMU MPU 9250 e realizar o envio através de um dispositivo NODEMcu para um banco de dados do tipo Firebase
 
 
-# Requirements
+# O que foi utilizado
 * FirebaseArduino.h
 * SPI.h
 * ESP8266.h
